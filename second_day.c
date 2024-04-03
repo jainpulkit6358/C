@@ -77,7 +77,30 @@ for(i=1;i<=n;i++){
             }
         printf("\n");
     }
+
+             int n,i,j,x=1;
+    float sum=0.0;
+    printf("Enter a Number");
+    scanf("%d",&n);
+    
+    for(i=1;i<=n;i++){
+        if(i>1)
+        printf("%d/%d",x,i);
+        else
+        printf("1");
+        if(i<n)
+            printf("+");
+        else
+            break;
+    }
+    printf("=");
+    for(j=1;j<=n;j++){
+        sum=sum+((double)x)/j;
+    }
+    printf("%.2f",sum);
     return 0;
 }
 
-}
+
+
+
