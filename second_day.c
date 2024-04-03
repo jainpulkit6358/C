@@ -98,6 +98,28 @@ for(i=1;i<=n;i++){
         sum=sum+((double)x)/j;
     }
     printf("%.2f",sum);
+
+int i,j;
+    int c=15;
+    for(i=1;i<=6;i++){
+        for(j=1;j<=i;j++){
+            printf(" ");
+        }
+        for(j=i;j<=15;j++){
+            if(j==i||i==(16-j)||(i==5&&j==7)||(i==4&&j==8)||(i==5&&j==9)){
+                printf("*");
+                
+        }
+        else{
+            printf(" ");
+        }
+            
+            
+        }
+        printf("\n");
+    }
+
+            
     return 0;
 }
 
