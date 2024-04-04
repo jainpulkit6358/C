@@ -80,3 +80,32 @@
 
 
 
+
+// Online C compiler to run C program online
+// #include <stdio.h>
+
+
+// int main(){
+    // int z,x=5,y=-10,a=4,b=2;
+    // z=x++ - --y*b/a;
+    
+    
+    // int i=0,j=1,k=2,m;
+    // m=(i++ || j++) && k++;
+    // printf("%d %d %d %d",m,i,j,k);
+    
+    
+    // int c=- -2;
+    // printf("%d",c);
+    
+    
+    // int x=0;
+    // if((x=1)||(x=0))
+    //     printf("hello0");
+    // else
+    // printf("bye");
+//  return 0;
+
+// }
+
+
