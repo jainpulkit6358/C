@@ -45,36 +45,36 @@
 // }
 
 // int main() {
-//    int a,n,r, i, j;
+   // int a,n,r, i, j;
 
-//    scanf("%d",&a);
+   // scanf("%d",&a);
 
-//    for(i = 0; i < a; i++) {
-//       for(j = 0; j < a-i; j++)
-//          printf("  ");
+   // for(i = 0; i < a; i++) {
+   //    for(j = 0; j < a-i; j++)
+   //       printf("  ");
          
-//       for(j = 0; j <= i; j++)
-//          printf(" %3d", ncr(i, j));
+   //    for(j = 0; j <= i; j++)
+   //       printf(" %3d", ncr(i, j));
 
-//       printf("\n");
-//    }
+   //    printf("\n");
+   // }
    
-//    printf("row: and Column");
-//    scanf("%d%d",&n,&r);
-//      for(i = 0; i <= a; i++) {
+   // printf("row: and Column");
+   // scanf("%d%d",&n,&r);
+   //   for(i = 0; i <= a; i++) {
          
-//       for(j = 0; j <= i; j++){
-//           if(n==i&&r==j){
+   //    for(j = 0; j <= i; j++){
+   //        if(n==i&&r==j){
               
-//               printf("the element is %d", ncr(i-1, j-1));
-//               break;
-//           }
-//       }
-//      }  
+   //            printf("the element is %d", ncr(i-1, j-1));
+   //            break;
+   //        }
+   //    }
+   //   }  
 
      
    
-//    return 0;
+   // return 0;
 
 // }
 
